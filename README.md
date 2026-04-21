@@ -39,6 +39,7 @@ Here’s what happens behind the scenes:
 Keeping preprocessing consistent was a priority, so the app uses a saved model_columns.pkl file to ensure everything aligns exactly with the training phase.
 
 **📂 Project Structure**
+
 customer-churn-predictor-genai/
 │
 ├── app/
@@ -61,7 +62,7 @@ customer-churn-predictor-genai/
 **⚙️ How to Run the App**
 1. Clone the repo
 ```python
-git clone https://github.com/Anshuman1982/customer-churn-predictor-genai.git
+git clone https://github.com/Aditya13136/customer-churn-predictor.git
 cd customer-churn-predictor-genai
 ```
 
