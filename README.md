@@ -43,21 +43,23 @@ Keeping preprocessing consistent was a priority, so the app uses a saved model_c
 customer-churn-predictor-genai/
 │
 ├── app/
-│   ├── app.py               # Main Streamlit app
-│   ├── churn_model.pkl      # Trained ML model
-│   ├── model_columns.pkl    # Feature columns used during training
-│   ├── bg.jpg               # Background image used in UI
+│   ├── app.py                # Main Streamlit application
+│   ├── churn_model.pkl       # Trained machine learning model
+│   ├── model_columns.pkl     # Feature columns used during training
+│   ├── bg.jpg                # Background image for UI
 │
 ├── data/
-│   └── Telco-Customer-Churn.csv
+│   └── Telco-Customer-Churn.csv   # Dataset used for training
 │
 ├── notebooks/
-│   └── model_training.ipynb # Full model training workflow
+│   └── model_training.ipynb  # Jupyter notebook for model development
 │
 ├── demo/
-│   └── demo.gif             # App demo GIF
+│   └── demo.gif              # Demo preview of the application
 │
-└── requirements.txt
+├── requirements.txt          # Python dependencies
+│
+└── README.md                 # Project documentation
 
 **⚙️ How to Run the App**
 1. Clone the repo
