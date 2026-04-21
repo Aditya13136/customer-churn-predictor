@@ -40,6 +40,7 @@ Keeping preprocessing consistent was a priority, so the app uses a saved model_c
 
 **📂 Project Structure**
 
+```text
 customer-churn-predictor-genai/
 │
 ├── app/
@@ -60,6 +61,7 @@ customer-churn-predictor-genai/
 ├── requirements.txt          # Python dependencies
 │
 └── README.md                 # Project documentation
+```
 
 **⚙️ How to Run the App**
 1. Clone the repo
